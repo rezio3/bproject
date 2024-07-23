@@ -14,11 +14,11 @@ function App() {
   const trailPageToDisplay = () => {
     switch (trailActive) {
       case "trail1":
-        return <Trail1 />;
+        return <Trail1 setTrailActive={setTrailActive} />;
       case "trail2":
-        return <Trail2 />;
+        return <Trail2 setTrailActive={setTrailActive} />;
       case "trail3":
-        return <Trail3 />;
+        return <Trail3 setTrailActive={setTrailActive} />;
       default:
         return;
     }
