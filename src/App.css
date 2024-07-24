@@ -47,3 +47,39 @@ span {
   font-size: 14px;
   margin-top: 5px;
 }
+
+.qimg {
+  width: 90%;
+  max-width: 500px;
+  margin-bottom: 15px;
+}
+.finalInputsContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inner-final-box {
+  min-width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.finalInput {
+  position: relative;
+  right: 0;
+  margin: 6px 0;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
+
+.last-span {
+  font-size: 12px;
+}
